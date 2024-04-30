@@ -19,9 +19,6 @@ async function initializeFirestore() {
   const firestore = admin.firestore();
   firestore.settings({ timestampsInSnapshots: true });
   fireorm.initialize(firestore);
-
-  // const repo = getRepository(User);
-  // const users = await repo.findById('1bDnGGSHCoPwlR7MKY3PR4PTpMz2');
 }
 
 bootstrap();

@@ -7,7 +7,7 @@ import { User } from './entities/user.entity';
   imports: [
     FireormModule.forRoot({
       firestoreSettings: {
-        projectId: 'fitersappdev',
+        projectId: 'MyAwesomeProject_ID',
       },
       fireormSettings: { validateModels: true },
     }),
